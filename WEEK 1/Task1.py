@@ -1,7 +1,7 @@
 import pandas as pd
 import numpy as np
 from scipy.stats import zscore
-df=pd.read_excel(r"C:\Users\manas\OneDrive\Desktop\Decodelabs project\Dataset\Product-Sales-Region.xlsx")
+df=pd.read_excel("Product-Sales-Region.xlsx")
 print("Original Shape:",df.shape)
 print(df.isnull().sum())
 #handling missing values
